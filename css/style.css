@@ -1,0 +1,261 @@
+p,h1{
+	margin: 0;
+}
+.main{
+	padding: 0 40px;
+}
+.mt-air,.mt-jordan,.main-header{
+	height: 700px;
+	width: 100%;
+	background-position: center;
+	background-size: cover;
+	object-fit: cover;
+	object-position: 50% 50%;
+}
+.main-header{
+	background-image: url('../img/nike-home-page-3.jpg');
+}
+.mh-info{
+	width: 40%;
+	padding-left: 50px;
+	padding-top: 50px;
+}
+.mh-i-H30,.mh-i-H31{
+	font-size: 17px;
+	font-weight: 500;
+}
+.mh-i-H31{
+	font-size: 71px;
+	font-weight: bold;
+	font-family: 'Teko', sans-serif;
+}	
+.mh-choose{
+	margin-top: 30px;
+	display: flex;
+	justify-content: flex-start;
+	flex-flow: row wrap;
+}
+.mh-c-C01{
+	padding: 10px 30px;
+	border-radius: 20px;
+	background: #000;
+	color: #fff;
+	margin-bottom: 5px;
+	margin-right: 6px;
+}
+.mh-info-varant{
+	display: none;
+}
+.mt-option{
+	display: flex;
+	justify-content: space-between;
+}
+.mt-header,.mc-header,.mn-header{
+	font-size: 27px;
+	padding: 50px 0 30px 0;
+}
+.mt-air{
+	background-image: url('../img/nike-home-page-5.jpg');
+}
+.mt-air,.mt-jordan{
+	display: flex;
+	flex-direction: column;
+}
+
+.mt-jordan{
+	background-image: url('../img/nike-home-page-4.jpg');	
+}
+.mt-a-text{
+	font-size: 20px;
+}
+.mt-a-info{
+	margin-top: auto;
+	padding-bottom: 30px;
+	padding-left: 35px;
+}
+.mt-a-link{
+	margin-top: 20px;
+	padding: 8px 25px;
+	background: #000;
+	border-radius: 20px;
+	color: #fff;
+}
+.mt-j-link{
+	margin-top: 20px;
+}
+.mt-j-link01{
+	padding: 8px 25px;
+	background: #fff;
+	border-radius: 20px;
+	color: #000;
+}
+.div-mt-a-01{
+	margin-top: 20px;
+}
+.main-colection{
+	padding-top: 60px;
+}
+.mc-cell{
+	padding: 0 8px;
+	width: 31%;
+	min-width: 300px;
+	min-height: 330px;
+	/* background-size: cover; */
+	background-position: center;
+}
+.mc-m-img img{
+	width: 100%;
+	height: 100%;
+	/* object-fit: cover;
+	background-size: cover; */
+	background-position: center;
+}
+
+.mc-m-info{
+	display: flex;
+	justify-content: space-between;
+	padding-right: 10px;
+	padding-top: 15px;
+}
+.mc-m-name{
+	display: flex;
+	flex-direction: column;
+}
+.mc-m-n01{
+	
+}
+.mc-m-n02{
+	color: #757575;
+}
+.more-nike{
+	padding-top: 60px;
+}
+.mn-select,.mn-s-item{
+	display: flex;
+	justify-content: space-between;
+}
+.mn-s-item{
+	margin: 0 8px;
+	width: 100%;
+	height: 540px;
+	background-position: center;
+	background-size: cover;
+	object-fit: cover;
+}
+.mn-s-men{
+	background-image: url('../img/nike-home-more-1.jpg');
+}
+.mn-s-women{
+	background-image: url('../img/nike-home-more-2.jpg');
+}
+.mn-s-kid{
+	background-image: url('../img/nike-home-more-3.jpg');
+}
+.mn-s-link{
+	font-size: 17px;
+	color: #000;
+	background: #fff;
+	padding: 8px 24px;
+	border-radius: 20px;
+	margin-top: auto;
+	margin-left: 15px;
+	margin-bottom: 20px;
+}
+.more-select{
+	padding-top: 60px;
+	padding-bottom: 60px;
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	padding-left: 20px;
+}
+.ms-i-header{
+	font-size: 18px;
+	padding-bottom: 15px;
+}
+.ms-item{
+	width: 25%;
+}
+.ms-i-list{
+	list-style: none;
+	margin: 0;
+
+}
+.ms-i-link{
+	width: 100%;
+	color: #757575;
+	padding: 6px 0;
+	display: -webkit-box;
+	 -webkit-box-orient: vertical;
+	-webkit-line-clamp:  1;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+@media screen  and (max-width: 1023px){
+	.main{
+		padding: 0 15px;
+	}
+	.main-header{
+		height: 500px;
+	}
+	.mh-i-H31{
+		font-size: 45px;
+	}
+	.mt-air,.mt-jordan{
+		height: 500px;
+	}
+	
+}
+
+@media screen and (max-width: 640px){
+	.main-header{
+		background-image: url('../img/nike-home-page-1.jpg')
+	}
+	.mh-info{
+		width: 90%;
+		padding: 0;
+		display: none;
+	}
+	.mh-i-H31{
+		font-size: 60px;
+	}
+	.mh-choose{
+		justify-content: flex-start;
+	}
+	.mh-info-varant{
+		display: block;
+		padding-top: 25px;
+	}
+	.mh-c-C01{
+		margin: 10px;
+	}
+	.mt-option{
+		flex-flow: column;
+	}
+	.mt-air{
+		margin-right: 0 !important;
+	}
+	.mt-jordan{
+		margin-left: 0 !important;
+		margin-top: 5px;
+	}
+	.mn-select{
+		flex-direction: column;
+	}
+	.mn-s-item{
+		margin-top: 8px;
+	}
+
+
+	.ms-i-list{
+		display: none;
+	}
+	.more-select{
+		display: block;
+		padding: 10px 0 10px 20px;
+
+	}
+	.ms-item{
+		width: 100%;
+	}
+}

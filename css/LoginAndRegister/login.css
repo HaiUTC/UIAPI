@@ -1,0 +1,128 @@
+.signin-regester{
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	overflow-x: scroll;
+	background: rgba(0,0,0,.6);
+}
+.login_register_home{
+	display: none;
+	position: fixed;
+	height: 100%;
+	overflow :  scroll;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	max-width: 650px;
+	background: #fff;
+	border-radius: 5px;
+	z-index:  11;
+	opacity: 1;
+}
+.sign_in_main{
+	display: none;
+	margin: 0 20px;
+	padding: 0 25px;
+	text-align: center;	
+}
+.si_header{
+	text-align: center;
+	padding: 20px 0;
+}
+.si-h-logo{
+	background-image: 
+}
+.si-h-logo-item{
+
+}
+.si-h-text{
+	font-size: 22px;
+	font-weight: bold;
+}
+.si-m-element{
+	padding-top: 20px;
+	text-align: left;
+}
+.si-ele-main{
+	width: 100%;
+	padding: 5px;
+	border: 1px solid #7e7e7e;
+}
+.keep-login,.forgot-pass{
+	display: inline-block;
+	float: left;
+	width: 50%;
+	padding-top: 20px;
+	font-size: 13px;
+	color: #7e7e7e;
+	padding-bottom: 30px;
+}
+.keep-login{
+	text-align: left;
+}
+.kl-label{
+	margin: 0;
+}
+.forgot-pass{
+	text-align: right;
+}
+.si-m-privacy{
+	font-size: 14px;
+	color: #7e7e7e;
+	padding-bottom: 20px;
+}
+.sign-btn{
+	background: #000;
+	padding: 5px;
+	display: flex;
+	border-radius: 5px;
+}
+.sign-btn button{
+	display: flex;
+	color: #fff;
+	margin: auto;
+}
+.si-m-join{
+	font-size: 13px;
+	color: #7e7e7e;
+	padding: 20px 0 30px 0;
+}
+.danger{
+	border-color: red;
+}
+.email-err,.password-err{
+	width: 100%;
+	font-size: 13px;
+	color: red;
+}
+.su-m-e-text{
+	text-align: center;
+	color: gray;
+	font-size: 14px;
+	padding-top: 5px;
+}
+
+.register_main{
+	padding:  0 10px;
+}
+.su-m-element{
+	padding-top: 20px;
+	text-align: center;
+}
+.su-m-e-select{
+	width: 100%;
+}
+.su-m-element-gender{
+	padding-top: 20px;
+	display: flex;
+	justify-content: space-around;
+	text-align: left;
+}
+.login_register_home::-webkit-scrollbar {
+    /* width: 1px; 
+   background: transparent;  */
+   display: none;
+} 

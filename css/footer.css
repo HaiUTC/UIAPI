@@ -1,0 +1,76 @@
+.footer{
+	position: relative;
+	width: 100%;
+	background: #000;
+	font-size: 13px;
+	z-index: 10000;
+}
+.footer-main{
+	padding: 40px;
+	border-bottom: 1px solid #7e7e7e;
+}
+.fe-list,.fc-list{
+	list-style: none;
+	margin: 0;
+}
+.fm-s-ele{
+	padding:0 30px 0px 30px;
+}
+.fe-link{
+	color: #fff;
+	padding: 6px 0;
+}
+.fc-link{
+	padding: 8px;
+}
+.social-link-icon{
+	fill: #7e7e7e;
+	padding-top: 5px;
+}
+.social-link-icon:hover{
+	fill: #fff;
+}
+.fp-a-address{
+	padding-right: 10px;
+	color: #fff;
+}
+.footer-privacy{
+	padding: 20px 40px 5px 40px;
+}
+.fp-address,.fp-rule{
+	padding: 0 30px 0px 30px;
+}	
+.fp-r-list{
+	list-style: none;
+}
+.fp-r-link{
+	padding-left: 10px;
+}
+.fp-a-icon{
+	fill: #fff;
+}
+
+@media screen  and (max-width: 1023px){
+	.footer-main{
+		padding: 10px;
+	}
+	.fm-s-ele,.fp-rule,.fp-address{
+		padding-left: 10px;
+		padding-right: 10px;
+		padding-bottom: 20px;
+	}
+	.footer-privacy{
+		padding-right: 10px;
+		padding-left: 10px;
+	}
+
+}
+
+@media screen and (max-width: 640px){
+	.footer-main,.fm-select,.footer-privacy,.fp-address,.fp-r-list{
+		display: block !important;
+	}
+	.fm-contact{
+		padding-top: 20px;
+	}
+}

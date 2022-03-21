@@ -1,0 +1,96 @@
+.mm-header{
+	padding-top: 40px;
+	padding-bottom: 10px;
+}
+.mm-h-pri{
+ display: flex;
+ flex-flow: row;
+ width: 100%;
+}
+.mm-h-title{
+	text-align: left;
+	font-size: 27px;
+	width: 30%;
+}
+.mm-h-choose{
+	font-size: 20px;
+	width: 40%;
+}
+.mm-h-choose ul{
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+.mm-h-choose ul li{
+	margin:  auto;
+}
+.mm-h-choose ul li a{
+	height: 100%;
+	display: flex;
+	padding: 0 20px;
+	text-align: center;
+}
+.mt-trending-1,.mt-trending-2,.mm-header-thumnail,.mm-featured-thumnail{
+	height: 700px;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	object-fit: cover;
+	object-position: 50% 50%;	
+}
+.mm-header-thumnail{
+	margin-top: 30px;
+	background-image: url('../img/For-men/men-header-1.jpg');
+}
+.mt-trending-1{
+	background-image: url('../img/For-men/mm-trending-1.jpg');
+}
+
+.mt-trending-2{
+	background-image: url('../img/For-men/mm-trending-2.jpg');
+}
+
+.mt-trending-1,.mt-trending-2{
+	display: flex;
+	flex-direction: column;
+}
+
+.mm-featured-thumnail{
+	background-image: url('../img/For-men/men-featured-1.jpg');
+}
+
+.mm-s-tshirt{
+	background-image: url('../img/For-men/Ess/mens-shoes-clothing-accessories.jpg');
+}
+.mm-s-short{
+	background-image: url('../img/For-men/Ess/mens-shoes-clothing-accessories (2).jpg');
+}
+.mm-s-legging{
+	background-image: url('../img/For-men/Ess/mens-shoes-clothing-accessories (1).jpg');
+}
+@media screen and (max-width: 640px){
+	.mm-header-thumnail{
+		background-image: url('../img/For-men/men-header-2.jpg');
+	}
+	.mm-featured-thumnail{
+		background-image: url('../img/For-men/men-featured-2.jpg');
+	}
+
+
+}
+
+@media screen  and (max-width: 1023px){
+	.mm-h-pri{
+		flex-flow: column;
+	}
+	.mm-h-choose ul li a{
+		text-align: left;
+		padding-left: 0;
+	}
+	.mm-h-choose ul li{
+		margin: 0;
+	}
+}
